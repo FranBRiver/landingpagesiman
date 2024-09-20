@@ -1,0 +1,199 @@
+body {
+    font-family: "Nunito", sans-serif;
+}
+
+nav {
+    background-color: rgb(168, 51, 56) !important;
+}
+
+.navbar.navbar-expand-lg.bg-body-tertiary {
+    background-color: rgb(168, 51, 56) !important;
+}
+
+.nav-link {
+    color: white;
+}
+
+.logo-siman {
+    width: 20vw;
+    height: 5vh;
+}
+
+a.navbar-brand {
+    color: white;
+}
+
+.navbar>.container-fluid {
+    background-color: rgb(168, 51, 56);
+}
+
+.carousel-item active {
+    transition: transform 1.5s ease, opacity .5s ease-out
+}
+
+.carousel-item {
+    transition: transform 1.5s ease, opacity .5s ease-out
+}
+
+.d-flex {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 100%;
+
+}
+
+button.btn {
+    color: white;
+    background-color: rgb(136, 41, 45);
+    outline-color: rgb(216, 12, 22);
+}
+
+button.btn:hover {
+    color: white;
+    background-color: rgb(136, 41, 45);
+}
+
+main>div>.oferta-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+}
+
+.footer .social-icons a {
+    margin-right: 15px;
+    color: #343a40;
+}
+
+.footer .nav-link {
+    color: #343a40;
+}
+
+.grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+body {
+    font-family: "Nunito", sans-serif;
+}
+
+.navbar {
+    padding: 1rem 0.5rem;
+}
+
+.logo-siman {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}
+
+.carousel-item {
+    transition: transform 1.5s ease, opacity 0.5s ease-out;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.container-main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .image-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar-toggler {
+        margin-left: auto;
+    }
+}
+
+@media (max-width: 576px) {
+    .logo-siman {
+        width: 50%;
+    }
+
+    .carousel-item img {
+        max-height: 150px;
+    }
+}
+
+
+@media screen and (max-width:425px) {
+    .logo-siman {
+        width: 45vw;
+        height: 5vh;
+    }
+}
+
+@media screen and (min-width:769px)and (max-width:1024px) {
+    .logo-siman {
+        width: 20vw;
+        height: 5vh;
+    }
+}
+
+@media screen and (min-width:1025px) {
+    .logo-siman {
+        width: 15vw;
+        height: 5vh;
+    }
+}
+
+@media (max-width: 576px) {
+    .product-image {
+        max-height: 150px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .product-image {
+        max-height: 175px;
+    }
+}
+
+@media (min-width: 768px) {
+    .product-image {
+        max-height: 200px;
+    }
+}
